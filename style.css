@@ -71,9 +71,10 @@ hr {
 
 
 .ajay-img {
-    border-radius: 50%;
+    border-radius: 80%;
     height: 170px;
     width: 170px;
+    
 }
 
 .computer {
@@ -177,21 +178,23 @@ hr {
 
 .change:after {
     content: '';
-    animation: changetext 5s infinite linear;
+    animation: changetext 3s infinite linear;
 
 }
 
 @keyframes changetext {
     0% {
-        content: "programmer";
+        content: "a programmer";
     }
 
+    
+
+100% {
+        content: "a developer";
+    }
+    
     50% {
-        content: "editor";
-    }
-
-    80% {
-        content: "developer";
+        content: "a creator";
     }
 
 }
@@ -203,4 +206,39 @@ hr {
 .animate__animated {
     animation-delay: 0.2s;
     animation-duration: infinite;
+}
+
+.insta {
+    height: 30px;
+    width: 30px;
+    padding: 0px;
+    margin: 0px;
+   position: relative;
+    left: 9px;
+    top: 10px;
+}
+
+.twitter {
+    height: 30px;
+    width: 30px;
+    padding: 0px;
+    margin: 0px;
+   position: relative;
+    left: 9px;
+    top: 10px;
+}
+
+.website {
+    height: 100px;
+    width: 200px;
+}
+
+.logo {
+  height: 30px;
+    width: 30px;
+    padding: 0px;
+    margin: 0px;
+   position: relative;
+    left: 9px;
+    top: 10px;
 }
